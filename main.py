@@ -1,4 +1,3 @@
-from http.server import BaseHTTPRequestHandler, HTTPServer
 import mysql.connector
 from flask import Flask, flash, redirect, render_template, request, session, abort
 
